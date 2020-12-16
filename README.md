@@ -5,5 +5,5 @@
  hard coding the html value or creating from an object array.
  and finallly I created from object array gave value iid(sttribute)
  and one extra elemnt identity to just compare the current hour with that.
- [link to deployed page](image/hm-5.JPG)
- ![screenshoot]()
+ [link to deployed page]()
+ ![screenshoot](image/hm-5.JPG)
