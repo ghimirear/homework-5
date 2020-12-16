@@ -23,4 +23,40 @@ function pporf(){
         }
 
     })
+    gettoaccomplish();
+}
+ var toaccomplishstore = [];
+ 
+ function setitem (){
+    localStorage.setItem('toaccomplishtext', JSON.stringify(toaccomplishstore));
+ }
+$('.saveBtn').on('click', function () {
+    var toaccomplishtext = $(this).siblings('.textarea').val();
+var toaccomplishid = $(this).siblings('.textarea').attr('id');
+console.log(toaccomplishid)
+console.log(toaccomplishtext); 
+var storage = {
+    text : toaccomplishtext,
+    id :toaccomplishid,
+}
+toaccomplishstore.push(storage);
+setitem();
+
+    
+});
+function gettoaccomplish(){
+    $('.textarea').each(function(){
+        var storedid = $(this).attr('id');
+      var toaccomplishtext= JSON.parse(localStorage.getItem('toacconpmishtext'));
+      console.log(toaccomplishtext);
+      //var text= toaccomplishtext.text;
+     // $(this).siblings('.textarea').val(text);
+
+        //$(this).siblings('.textarea').val()= storedvalue.text + storedvalue.id;
+        //$(this).siblings('textarea').attr
+       // console.log(storedvalue);
+
+        console.log(storedid);  
+    });
+    
 }
