@@ -18,7 +18,7 @@ Work Day Scheduler is a simple app allows user to enter specific notes for a par
 - Clone the git hub repo.
 # Usage
 - navigate to the `ondex.html` page and open in browser. 
-- # Deployment
+# Deployment
  - [link to deployed page](https://ghimirear.github.io/work-day-scheduler/)
- # Screenshoots
+# Screenshoots
  ![screenshoot](images/hm-5.JPG)
