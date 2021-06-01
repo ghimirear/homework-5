@@ -5,15 +5,20 @@
 - [Technologies](#Technologies)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Repositories](#Repositories)
 - [Deployment](#Deployment)
 - [Screenshots](#Screenshots)
 # Description 
-
-#### this homework was abit difficult coz parsing the multiple object and and storing value was challenging.
- ## I tried all the methods that I learned and available.
- hard coding the html value or creating from an object array.
- and finallly I created from object array gave value id(attribute)
- and one extra elemnt identity to just compare the current hour with that.
+Work Day Scheduler is a simple app allows user to enter specific notes for a particular day os the time so that user can keep track of what need to be accomplish in that particular day. The main important feature of this app is that it shows the different color for the different period of time (present, past and future) 
+# Technologies 
+- HTML
+- CSS
+- JavaScript
+- Brouser Local storage
+# Installation 
+- Clone the git hub repo.
+# Usage
+- navigate to the `ondex.html` page and open in browser. 
+- # Deployment
  - [link to deployed page](https://ghimirear.github.io/work-day-scheduler/)
+ # Screenshoots
  ![screenshoot](images/hm-5.JPG)
